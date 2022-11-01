@@ -2,5 +2,6 @@ const frase="Jorge tem uma casa verde e com portão azul, com os dizeres:\"BOAS 
 const novaFrase=frase.replaceAll("verde","rosa").replaceAll("azul","laranja")
 console.log("Nova frase ",novaFrase)
 const minuscula="mas não deixe o gato sair\""
-const maiuscula="Jorge tem uma casa verde e com portão azul, com os dizeres:\"BOAS VINDAS,"
-console.log(maiuscula + minuscula.toUpperCase())
+console.log(frase.replace(minuscula,minuscula.toUpperCase()))
+console.log("Inclui verde?", novaFrase.includes("verde"))
+console.log("inclui laranja?", novaFrase.includes("laranja"))

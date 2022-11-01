@@ -10,5 +10,5 @@ const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.     "
  const stringSemEspaco=minhaString.trim()
  console.log("Com espaço", minhaString.length)
  console.log("Sem Espaço", stringSemEspaco.length)
- const novaString="Eu não sou supersticioso, mas sou um pouco \"sticioso\""
+ const novaString=minhaString.replace(" ________"," sticioso" )
  console.log(novaString)
